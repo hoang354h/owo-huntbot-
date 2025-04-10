@@ -41,7 +41,7 @@ pkg install -y git nodejs
 echo "${GREEN} [+] ${BLUE} Đã cài đặt các gói ${RESTORE}"
 echo "${GREEN} [+] ${BLUE} Đang cài đặt OwO Farm Bot ${RESTORE}"
 git clone https://github.com/hoang354h/owo-huntbot-.git/
-cd owo-huntbot || exit
+cd owohuntbot || exit
 
 echo "${GREEN} [+] ${BLUE} Đang cài đặt các gói Node.js ${RESTORE}"
 npm install --no-bin-links
