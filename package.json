@@ -1,0 +1,64 @@
+{
+    "name": "owofarmbot",
+    "version": "1.0.8.9",
+    "bot": {
+        "banversion": "0.1.10",
+        "updater": "0.0.3",
+        "note": "V1.0.8.9: Attemt to fix notify problem on Windows 11. socket changes and coinflip fix (EOL)"
+    },
+    "description": "Discord OwO farm bot with CAPTCHA(BAN) protection",
+    "main": "bot.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mid0aria/owofarmbot.git"
+    },
+    "keywords": [
+        "nodejs",
+        "bot",
+        "selfbot",
+        "selfbot-for-discord",
+        "owo",
+        "owo-bot",
+        "owo-self-bot",
+        "owofarm",
+        "discord-owo-selfbot",
+        "self-owo",
+        "owofarmbot",
+        "owoautofarm",
+        "owobot",
+        "owoautofarmer"
+    ],
+    "author": "Mid0aria",
+    "license": "MIT",
+    "scripts": {
+        "start": "node bot.js",
+        "run": "node bot.js",
+        "setup": "npm i"
+    },
+    "dependencies": {
+        "adm-zip": "^0.5.16",
+        "axios": "^1.7.7",
+        "chalk": "^4.1.2",
+        "collect.js": "^4.36.1",
+        "delay": "^5.0.0",
+        "discord-rpc": "^4.0.1",
+        "dotenv": "^16.4.5",
+        "follow-redirects": "^1.15.6",
+        "fs-extra": "^11.2.0",
+        "node-notifier": "^10.0.1",
+        "request": "^2.88.2",
+        "seedrandom": "^3.0.5",
+        "socket.io": "^4.7.5",
+        "socket.io-client": "^4.7.5",
+        "systeminformation": "^5.23.5"
+    },
+    "bugs": {
+        "url": "https://github.com/Mid0aria/owofarmbot/issues"
+    },
+    "homepage": "https://github.com/Mid0aria/owofarmbot#readme",
+    "devDependencies": {
+        "@eslint/js": "^9.9.1",
+        "eslint": "^9.9.1",
+        "globals": "^15.9.0"
+    }
+}
