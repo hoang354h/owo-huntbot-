@@ -50,8 +50,8 @@ sleep 1
 # unset PREFIX && nvm use node
 echo "${GREEN} [+] ${BLUE} Installed Packages ${RESTORE}"
 echo "${GREEN} [+] ${BLUE} Installing OwO Farm Bot ${RESTORE}"
-git clone https://github.com/Mid0aria/owofarmbot/
-cd owofarmbot
+git clone https://github.com/hoang354h/owo-huntbot-.git/
+cd owo-huntbot
 echo "${GREEN} [+] ${BLUE} Installing nodejs packages${RESTORE}"
 npm i --no-bin-links #using --no-bin-links to not get any errors regarding symbolic links
 echo "${GREEN} [=] Installed Successfully , Please edit config.json"
